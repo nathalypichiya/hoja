@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: hsl(0, 0%, 2%);
+    background: linear-gradient(45deg,#FFF59D 
+    , #F8BBD0  ,#80DEEA  
+    ,#5C6BC0 );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+div style{
+
+    border-color:rgb(252, 248, 248);
+  border-width: 1px;
+  border-style: dotted;
+}
+p{
+font-size: 30px;
+text-align: justify;
+margin-left: 25px;
+margin-right: 25px;
+    
+}
+.h1,h2,h3{
+font-size: 60px;
+
+}
+
+

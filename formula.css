@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  .formula {
+    width: 500px;
+    background:#CE93D8;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(4, 3, 3);
+  border-radius: 20px;
+  }
+ 
+  
+  
+  .for {
+    width: 100%;
+    background: #f2f5f7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0a0b0d;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+  }
+  
+  
+  
+  .formula .boton {
+    width: 100%;
+    background: #f5064a;
+    border: none;
+    padding: 12px;
+    color: #fcf5f5;
+    margin: 16px 0;
+    font-size: 20px;
+  }
+ .ba{
+  width: 300px;
+    background: #eef0f2;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 7px 13px 37px #000;
+    margin-left: 60px;
+     display: inline-block;
+     border-radius: 20px;
+     
+  }
+  .rra{
+    width: 300px;
+      background: #eef0f2;
+      padding: 15px;
+      margin: auto;
+       box-shadow: 7px 13px 37px #000;
+       margin-left: 120px;
+       display: inline-block;
+       border-radius: 20px;
+      
+    }
+    .rb{
+      width: 300px;
+      background: #eef0f2;
+      padding: 15px;
+      margin: auto;
+      box-shadow: 7px 13px 37px #000;
+      margin-left: 120px;
+      display: inline-block;
+      border-radius: 20px;
+      
+      }
+    .formal{
+background: #f2f5f7;
+height: 800px;
+width: 1300px;;
+
+    }
+
+    .h1{
+
+      
+    }
+
+     

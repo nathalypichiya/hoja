@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: hsl(0, 28%, 95%);
+    background: linear-gradient(45deg,#E1F5FE  ,#BA68C8 ,#F06292 ,#B2EBF2);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+h1{
+    font-size: 5rem;
+    letter-spacing: 10px;
+    border: solid 5px rgb(244, 238, 238);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 2rem;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}

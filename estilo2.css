@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: hsl(0, 0%, 2%);
+    background: linear-gradient(45deg,#33FFCC 
+    , #FFD54F   ,#F48FB1 ,#81D4FA);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+h1{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    border: solid 5px rgb(244, 238, 238);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+div style{
+
+    border-color:white;
+  border-width: 1px;
+  border-style: dotted;
+}
+button{
+margin-bottom: 5px;
+height: 50px;
+width: 100px;
+background-color: rgb(22, 3, 7);
+color:white ;
+font-style: normal;
+
+
+}
+{
+    id: 8,
+    nombre: 'Fresas',
+    precio: 0.6,
+    imagen: 'img.js/bi.jpg'
+}
